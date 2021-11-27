@@ -28,12 +28,12 @@ class MyApp extends StatelessWidget {
         '/storeFinderResults': (context) => StoreFinderResults()
       },
       theme: ThemeData(
-          primaryColor: Color(0xFFff92ff),
+          primaryColor: Color(0xFF000000),
           scaffoldBackgroundColor: Color(0xFFf0fbfe),
           accentColor: Color(0xFF000000),
           textTheme: TextTheme(
               bodyText2: TextStyle(
-            color: Color(0xFF242326),
+            color: Color(0xFFFFFF),
             fontFamily: 'Outfit',
             fontWeight: FontWeight.w400,
           ))),

@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:apparel/components/icon_content.dart';
 import 'package:apparel/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:apparel/components/botNavBar.dart';
 
 class LoadingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFff92ff),
+      backgroundColor: Color(0xFFEBA4F5),
 /*      appBar: AppBar(
         elevation: 0,
         title: Text('Loading Page'),
@@ -34,7 +35,8 @@ class LoadingPage extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(25.0),
                 child: Image.asset(
-                  'lib/assets/images/apparel4.png',
+                  'lib/assets/images/apparellogo.png',
+                  width: 275,
                 ),
               ),
               SizedBox(
@@ -51,11 +53,11 @@ class LoadingPage extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               SizedBox(
-                height: 25.0,
+                height: 70.0,
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/homepage');
+                  Navigator.pushNamed(context, '/fabricCare');
                 },
                 child: IconContent(
                   icon: FontAwesomeIcons.arrowRight,
