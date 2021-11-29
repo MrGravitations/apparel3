@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-/*const kBottomContainerHeight = 80.0;
-const kActiveCardColor = Color(0xFF96D4E7);
-const kInactiveCardColor = Color(0xFFFFFFFF);
-const kBottomContainerColor = Color(0xff96D4E7);*/
+//const kActiveIcon = Colors.red;
+//const kInactiveIcon = Color(0xFF262322);
 
 const kHeaderBlack = TextStyle(
   fontSize: 50.0,
@@ -23,7 +21,7 @@ const kPageheadBold = TextStyle(
   fontSize: 23.0,
   fontWeight: FontWeight.w700,
   fontFamily: 'Outfit',
-  color: Color(0xFF242326),
+  color: Color(0xFFf3eff6),
 );
 
 const kTextReg = TextStyle(

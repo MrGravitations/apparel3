@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:apparel/constants.dart';
 
 class BotBar extends StatelessWidget {
   const BotBar({
@@ -9,7 +10,7 @@ class BotBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomAppBar(
       elevation: 0,
-      color: Color(0xffc8f3ff),
+      color: Color(0xffFFFFFF),
       child: Row(
         children: [
           Spacer(),
@@ -26,7 +27,9 @@ class BotBar extends StatelessWidget {
               }),
           Spacer(),
           IconButton(
-              icon: Icon(Icons.search_rounded),
+              icon: Icon(
+                Icons.search_rounded,
+              ),
               onPressed: () {
                 Navigator.pushNamed(context, '/storeFinder');
               }),
