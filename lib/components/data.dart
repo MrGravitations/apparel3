@@ -132,7 +132,7 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/Cotton.png',
+    images: 'lib/assets/images/blood.png',
   ),
   CardInfo(
     2,
@@ -149,7 +149,7 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/denim.png',
+    images: 'lib/assets/images/coffee.png',
   ),
   CardInfo(
     3,
@@ -166,7 +166,7 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/leather.png',
+    images: 'lib/assets/images/grease.png',
   ),
   CardInfo(
     4,
@@ -183,7 +183,7 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/silk.png',
+    images: 'lib/assets/images/ink.png',
   ),
   CardInfo(
     5,
@@ -200,7 +200,7 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/wool.png',
+    images: 'lib/assets/images/sauce.png',
   ),
   CardInfo(
     6,
@@ -217,6 +217,6 @@ List<CardInfo> navtwo = [
         'Sample text white info keane pogi times one hundred walang papalag lahat aatras beng.',
     infoBlack:
         'Sample text black info keane pogi times one hundred walang papalag lahat aatras pang.',
-    images: 'lib/assets/images/linen.png',
+    images: 'lib/assets/images/sweat.png',
   ),
 ];

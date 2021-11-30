@@ -40,6 +40,12 @@ flutter:
     - lib/assets/images/linen.png
     - lib/assets/images/silk.png
     - lib/assets/images/wool.png
+    - lib/assets/images/blood.png
+    - lib/assets/images/coffee.png
+    - lib/assets/images/grease.png
+    - lib/assets/images/ink.png
+    - lib/assets/images/sauce.png
+    - lib/assets/images/sweat.png
 
   fonts:
     - family: Outfit
