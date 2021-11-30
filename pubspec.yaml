@@ -16,6 +16,10 @@ dependencies:
 
   flutter_swiper: ^1.1.6
 
+  simple_shadow: ^0.2.0
+
+  simple_gradient_text: ^1.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -26,13 +30,16 @@ flutter:
 
 
   assets:
-    - lib/assets/images/apparel2.png
-    - lib/assets/images/apparel3.png
-    - lib/assets/images/apparel4.png
     - lib/assets/images/stainremoval.png
     - lib/assets/images/fabriccare.jpg
     - lib/assets/images/locate.jpg
     - lib/assets/images/apparellogo.png
+    - lib/assets/images/Cotton.png
+    - lib/assets/images/denim.png
+    - lib/assets/images/leather.png
+    - lib/assets/images/linen.png
+    - lib/assets/images/silk.png
+    - lib/assets/images/wool.png
 
   fonts:
     - family: Outfit

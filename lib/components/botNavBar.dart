@@ -8,32 +8,37 @@ class BotBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BottomAppBar(
-      elevation: 0,
-      color: Color(0xffFFFFFF),
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.vertical(
+          top: Radius.circular(30.0),
+        ),
+        color: Color(0xffFFFFFF),
+      ),
+      padding: const EdgeInsets.all(32.0),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Spacer(),
           IconButton(
               icon: Icon(Icons.coffee_rounded),
+              iconSize: 35.0,
               onPressed: () {
                 Navigator.pushNamed(context, '/removalStains');
               }),
-          Spacer(),
           IconButton(
               icon: Icon(Icons.dry_cleaning_rounded),
+              iconSize: 35.0,
               onPressed: () {
                 Navigator.pushNamed(context, '/fabricCare');
               }),
-          Spacer(),
           IconButton(
               icon: Icon(
                 Icons.search_rounded,
               ),
+              iconSize: 35.0,
               onPressed: () {
                 Navigator.pushNamed(context, '/storeFinder');
               }),
-          Spacer(),
         ],
       ),
     );

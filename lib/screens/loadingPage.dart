@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:apparel/components/icon_content.dart';
 import 'package:apparel/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:apparel/components/botNavBar.dart';
 
 class LoadingPage extends StatelessWidget {
   @override
@@ -27,7 +26,7 @@ class LoadingPage extends StatelessWidget {
               stops: [
                 0.2,
                 0.4,
-                0.6,
+                0.5,
                 0.8,
                 1,
               ],
@@ -60,10 +59,6 @@ class LoadingPage extends StatelessWidget {
                     children: [
                       Container(
                         padding: EdgeInsets.all(25.0),
-                        /*child: Image.asset(
-                          'lib/assets/images/apparellogo.png',
-                          width: 275,
-                        ),*/
                       ),
                       SizedBox(
                         height: 35.0,
@@ -91,7 +86,7 @@ class LoadingPage extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                           shape: CircleBorder(),
                           padding: EdgeInsets.all(15),
-                          primary: Color(0xFFd3f9ee), // <-- Button color
+                          primary: Color(0xFFb9c2ff), // <-- Button color
                           onPrimary: Colors.white, // <-- Splash color
                         ),
                       )

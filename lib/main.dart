@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:apparel/screens/storeFinderResults.dart';
 import 'package:apparel/screens/storeFinder.dart';
-import 'screens/fabricCareResults.dart';
-import 'screens/homepage.dart';
-import 'screens/removalStainsResults.dart';
 import 'screens/removalStains.dart';
 import 'screens/fabricCare.dart';
 import 'screens/loadingPage.dart';
 import 'package:flutter/services.dart';
-import 'package:apparel/constants.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,16 +28,12 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoadingPage(),
-        '/homepage': (context) => Homepage(),
         '/removalStains': (context) => RemovalStains(),
         '/fabricCare': (context) => FabricCare(),
         '/storeFinder': (context) => StoreFinder(),
-        '/removalStainsResults': (context) => RemovalStainsResults(),
-        '/fabricCareResults': (context) => FabricCareResults(),
-        '/storeFinderResults': (context) => StoreFinderResults()
       },
       theme: ThemeData(
-          scaffoldBackgroundColor: Color(0xFF262322),
+          scaffoldBackgroundColor: Color(0xFFFFFFFF),
           accentColor: Color(0xFF000000),
           textTheme: TextTheme(
               bodyText2: TextStyle(
